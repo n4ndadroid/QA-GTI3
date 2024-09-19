@@ -1,0 +1,136 @@
+{
+  "id": "c2129685-cba3-46e2-8a23-72b2efe38ad7",
+  "version": "2.0",
+  "name": "Teste de automação",
+  "url": "https://docs.google.com",
+  "tests": [{
+    "id": "3f4a965e-0f35-4357-b86e-6641bd2dd734",
+    "name": "Teste formulário",
+    "commands": [{
+      "id": "910dd856-eeed-4fb6-8c91-0a8ade0c6bc4",
+      "comment": "",
+      "command": "open",
+      "target": "/forms/d/1q7Fa0w-R48fKNqbLHlG60tPWWtP-4ndSbdXPLWjw8EM/prefill",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc0869ea-14c0-4baf-9912-4e80a3dc6208",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56aa2ea8-43e3-4e29-905d-0fcd7d5875ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i10 .AB7Lab",
+      "targets": [
+        ["css=#i10 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i10']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dd0da06-f517-41aa-b95c-e67a6d7b377a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i26 .AB7Lab",
+      "targets": [
+        ["css=#i26 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i26']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/span/div/div/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f81dc12b-a146-4f90-95cf-facf4bc59098",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i50 .AB7Lab",
+      "targets": [
+        ["css=#i50 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i50']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/span/div/div[2]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce294729-beb4-4da3-9b25-1671443b61c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i66 .AB7Lab",
+      "targets": [
+        ["css=#i66 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i66']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/span/div/div/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5183670f-817e-4849-8af8-b8f7d92ee030",
+      "comment": "",
+      "command": "click",
+      "target": "css=#i94 .AB7Lab",
+      "targets": [
+        ["css=#i94 .AB7Lab", "css:finder"],
+        ["xpath=//div[@id='i94']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/span/div/div[3]/label/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ef492f-7b2e-4413-b9f8-73e6d7855d95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Uc2NEf",
+      "targets": [
+        ["css=.Uc2NEf", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2320eb87-c1f2-4bcf-8266-048020575b24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NPEfkd",
+      "targets": [
+        ["css=.NPEfkd", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div/div[3]/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6e1f0191-1339-493e-892a-21180efd72ca",
+    "name": "teste login",
+    "commands": [{
+      "id": "612ca69f-02f9-44ac-971b-f367c2e625d1",
+      "comment": "",
+      "command": "open",
+      "target": "/document/u/0/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f72a10c9-0952-4def-b5cd-1bee599cec36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bde64f3f-b6a7-4b35-b339-44ddc14aca58",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "18bd7787-644c-46af-bb67-e738308a5d02",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3f4a965e-0f35-4357-b86e-6641bd2dd734"]
+  }],
+  "urls": ["https://docs.google.com/"],
+  "plugins": []
+}
