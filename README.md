@@ -1,2 +1,2 @@
-# QA-GTI3
-projeto desenvolvido na aula de Q.A em 2024
+def soma(a, b):
+return a + b + 1 # Modificação para quebrar o teste
